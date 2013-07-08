@@ -13,6 +13,13 @@
 	padding-top:10px;
 	padding-bottom:10px; 
 }
+#text {
+	font-size:16pt;
+	line-height:120%
+}
+#myheader{
+	color:;
+}
 #homebutton {
 	margin-right:5px;
 }
