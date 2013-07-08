@@ -1,40 +1,44 @@
 .nav-tabs li {
-    width:120px;
-    font-size:16px;
-    
+    width:150px;
+    font-size:14pt;}
+.nav-tabs li a {
+	font-weight:bold;
+    color:#CF1039;
 }
 .navbar li a {
-	font-size:20px;}
+	font-size:18pt;
+	font-weight:bold;
+	color:#CF1039;
+}
 /*.navbar li  {
 	width:140px;
 }*/
 .navbar li div{
 	height:20px;
 	padding-top:10px;
-	padding-bottom:10px; 
+	padding-bottom:10px;
+	margin-bottom:2px; 
 }
 #text {
-	font-size:16pt;
+	font-size:140%;
 	line-height:120%
-}
-#myheader{
-	color:;
 }
 #homebutton {
 	margin-right:5px;
 }
-
 #homebutton a {
-	color:#0088CC;
+	/*color:#0088CC;*/
+	color:#CF1039
 }
-
 .dropdown-menu {
 	width: 200px;
 }
 .dropdown-menu li {
-	width: 190px;
+	width: 300px;
 }
-
 #headerphoto {
 	width:300px ;
+}
+h3 {
+	color:#CF1039;
 }
