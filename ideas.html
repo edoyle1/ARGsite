@@ -28,19 +28,32 @@
                             <ul class="nav">
                                 <li id="homebutton"><a href="index.html" class="btn"> Home </a></li> <!-- Make whatever button for the screen you're on active -->
 
-                                <li id="homebutton"><a href="about.html" class="btn"> About </a><li>
+                                <li class="dropdown btn-group">
+                                    <!-- About Page Button -->
+                                    <div class="btn"><a href="about.html"> About </a></div>
+                                    <div class="btn dropdown-toggle" data-toggle="dropdown">
+                                        <span class="caret"></span>
+                                    </div>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="projects.html#e4h"> Fill1 </a></li>
+                                        <li><a href="projects.html#myndr">Fill2 </a></li>
+                                        <li><a href="projects.html#oxygen"> Fill3 </a></li>
+                                        <li><a href="projects.html#walkertray"> Fill4 </a></li>
+                                    </ul>
+                                </li>
 
                                 <li class="dropdown btn-group">
                                     <!-- Projects Page Button -->
-                                    <div class="btn"><a href="projects.html"> Projects</a></div>
+                                    <div class="btn"><a href="projects.html"> Projects </a></div>
                                     <div class="btn dropdown-toggle" data-toggle="dropdown">
                                         <span class="caret"></span>
                                     </div>
                                     <ul class="dropdown-menu">
                                         <li><a href="projects.html#e4h"> Engineering for Humanity </a></li>
-                                        <li><a href="projects.html#myndr"> MYNDR </a></li>
-                                        <li><a href="projects.html#oxygen"> Oxygen Bottle on Walker </a></li>
-                                        <li><a href="projects.html#walkertray"> Walker Tray </a></li>
+                                        <li><a href="projects.html#myndr"> My Name is Julius </a></li>
+                                        <li><a href="projects.html#oxygen"> Retirement on the Line </a></li>
+                                        <li><a href="projects.html#walkertray"> Design Projects </a></li>
+                                        <li><a href="projects.html#walkertray"> Outreach </a></li>
                                     </ul>
                                 </li>
 
@@ -80,7 +93,7 @@
                                     </ul>
                                 </li>
 
-                                <li class="dropdown btn-group">
+                                <li id="homebutton" class="dropdown btn-group">
                                     <!-- Your Ideas Page Button -->
                                     <div class="btn" class="active"><a href="ideas.html"> Your Ideas </a></div>
                                     <div class="btn dropdown-toggle" data-toggle="dropdown">
