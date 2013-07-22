@@ -1,61 +1,25 @@
-.nav-tabs li {width:250px;font-size:14pt;} /*Sidebar*/
+.nav-tabs li {width:250px;} /*Sidebar size*/
 
-.nav-tabs li a{font-weight:bold;color:#CF1039;}
+.nav-tabs li a{font-size:14pt;font-weight:bold;color:#000000;} /*Sidebar text formatting*/
 
-.navbar li a
-{
-	font-size:18pt;
-	font-weight:bold;
-	color:#CF1039;
-}
+.navbar li a{font-size:18pt;font-weight:bold;color:#CF1039;} /*Navbar text formatting*/
 
-.dropdown-menu li a
-{
-	font-size:14pt;
-	font-weight:bold;
-	color:#CF1039;
-}
+.dropdown-menu{width:100%;} /*Dropdown size*/
 
-.navbar li div
-{
-	height:20px;
-	padding-top:10px;
-	padding-bottom:10px;
-	margin-bottom:2px; 
-}
+.dropdown-menu li a{font-size:14pt;} /*Dropdown text formatting*/
 
-#text
-{
-	font-size:140%;
-	line-height:120%
-}
+.navbar li div{height:20px;padding-top:10px;padding-bottom:10px;margin-bottom:2px;} /*Navbar button sizes*/
 
-#homebutton
-{
-	margin-right:5px;
-}
+#homebutton{margin-right:5px;} /*Navbar button margin*/
 
-#homebutton a
-{
-	color:#CF1039
-}
+#homebutton a{color:#CF1039} /*Navbar button text formatting*/
 
-.dropdown-menu
-{
-	width: 200px;
-}
+#text{font-size:140%;line-height:120%} /*Body text formatting*/
 
-.dropdown-menu li
-{
-	width: 300px;
-}
+#headerphoto{width:300px;} /*Header photo size*/
 
-#headerphoto
-{
-	width:300px ;
-}
+#logo{width:150px;} /*Olin logo size*/
 
-h3
-{
-	color:#CF1039;
-}
+#header{font-size:32pt;font-weight:bold; color:#000000;}
+
+h3{color:#CF1039;} /*Header 3 text formatting*/
