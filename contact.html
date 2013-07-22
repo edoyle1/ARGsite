@@ -115,13 +115,35 @@
                     a case to keep hearing aids open (and the battery disengaged) when not in use<br>
                     a way to carry gardening tools while using a cane<p/>
 
-                    <p><i>Note: solutions may already exist that we have yet to discover</i> <p/>
+                    <p><i>Note: solutions may already exist that we have yet to discover</i> <p/><br>
 
-                    <form class="navbar-form pull-left" action="MAILTO:sharon.grimshaw@students.olin.edu" method="post" enctype="text/plain">
-                    Email address (optional):<input type="text" class="span12"><br><BR>
-                    Questions, comments, or suggestions:<input type="text" class="span12" style="height:150px"><br><BR>
-                    <button type="submit" class="btn" id="text">Submit</button>
-                    </form>
+                    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+                    <head>
+                        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+                        <title>FormMail Demo</title>
+                        <script type="text/javascript">
+                        function hgsubmit()
+                        {
+                        if (/\S+/.test(document.hgmailer.name.value) == false) alert ("Please provide your name.");
+                         else if (/\S+/.test(document.hgmailer.comment.value) == false) alert ("Your email content is needed.");
+                          else {
+                               document.hgmailer.submit();
+                               alert ('Thank you!\nYour email is sent.');
+                               }
+                        }
+                        </script>
+                    </head>
+                    <body>
+                        <form action="http://www.mydomain.com/cgi-sys/formmail.pl" method="post" name="hgmailer">
+                            <input type="hidden" name="recipient" value="sharon.grimshaw@students.olin.edu">
+                            <input type="hidden" name="subject" value="Form mail email">
+                            Visitor Name: <input type="text" name="name" size="30" value=""><br>
+                            Visitor E-Mail (optional): <input type="text" name="email" size="30" value=""><br>
+                            Questions, comments, or suggestions: <textarea name="comment" cols="50" rows="5"></textarea><br><br>
+                            <input type="button" value="Submit" onclick="hgsubmit();">
+                            <input type="hidden" name="redirect" value="http://www.mydomain.com/redirect-path">
+                        </form>
+                    </body>
                 </div>
             </div>
         </div>
