@@ -1,44 +1,61 @@
-.nav-tabs li {
-    width:150px;
-    font-size:14pt;}
-.nav-tabs li a {
-	font-weight:bold;
-    color:#CF1039;
-}
-.navbar li a {
+.nav-tabs li {width:250px;font-size:14pt;} /*Sidebar*/
+
+.nav-tabs li a{font-weight:bold;color:#CF1039;}
+
+.navbar li a
+{
 	font-size:18pt;
 	font-weight:bold;
 	color:#CF1039;
 }
-/*.navbar li  {
-	width:140px;
-}*/
-.navbar li div{
+
+.dropdown-menu li a
+{
+	font-size:14pt;
+	font-weight:bold;
+	color:#CF1039;
+}
+
+.navbar li div
+{
 	height:20px;
 	padding-top:10px;
 	padding-bottom:10px;
 	margin-bottom:2px; 
 }
-#text {
+
+#text
+{
 	font-size:140%;
 	line-height:120%
 }
-#homebutton {
+
+#homebutton
+{
 	margin-right:5px;
 }
-#homebutton a {
-	/*color:#0088CC;*/
+
+#homebutton a
+{
 	color:#CF1039
 }
-.dropdown-menu {
+
+.dropdown-menu
+{
 	width: 200px;
 }
-.dropdown-menu li {
+
+.dropdown-menu li
+{
 	width: 300px;
 }
-#headerphoto {
+
+#headerphoto
+{
 	width:300px ;
 }
-h3 {
+
+h3
+{
 	color:#CF1039;
 }
