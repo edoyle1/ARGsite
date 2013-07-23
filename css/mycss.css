@@ -20,10 +20,12 @@
 
 #header{font-size:32pt;font-weight:bold; color:#000000;line-height:100%;font-weight:bold;} /* Banner text formatting */
 
-.main{margin-left:320px;width:auto;} /* Body text formatting */
+.main{margin-left:340px;width:auto;} /* Body text formatting */
 
-.sidebar{width:300px;float:left;} /* Sidebar size formatting */
+.sidebar{width:332px;float:left;} /* Sidebar size formatting */
 
 .wrap{margin:20px;padding:20px;background:#fff;} /* Body/sidebar text wrapper */
 
 .wrap2{margin:20px;padding:20px;background:#cedaff;} /* Banner text wrapper */
+
+#submenu{font-size:12pt;}
