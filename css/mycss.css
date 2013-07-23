@@ -22,7 +22,8 @@
 
 #header{font-size:32pt;font-weight:bold; color:#000000;}
 
-a:active
-{ 
-background-color:yellow;
-}
+.main{margin-left:300px;width:auto;}
+
+.sidebar{width:300px;float:left;}
+
+.wrap{margin:20px;padding:20px;background:#fff;}
