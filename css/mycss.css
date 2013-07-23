@@ -22,4 +22,7 @@
 
 #header{font-size:32pt;font-weight:bold; color:#000000;}
 
-h3{color:#CF1039;} /*Header 3 text formatting*/
+a:active
+{ 
+background-color:yellow;
+}
