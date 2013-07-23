@@ -4,7 +4,7 @@
 
 .navbar li a{font-size:18pt;font-weight:bold;color:#CF1039;} /*Navbar text formatting*/
 
-.dropdown-menu{width:100%;} /*Dropdown size*/
+.dropdown-menu{width:auto;} /*Dropdown size*/
 
 .dropdown-menu li a{font-size:14pt;} /*Dropdown text formatting*/
 
@@ -18,12 +18,14 @@
 
 #headerphoto{width:300px;} /*Header photo size*/
 
-#logo{width:150px;} /*Olin logo size*/
+#logo{width:150px;vertical-align:middle;margin-bottom:5px;} /*Olin logo size*/
 
-#header{font-size:32pt;font-weight:bold; color:#000000;}
+#header{font-size:32pt;font-weight:bold; color:#000000;line-height:100%;font-weight:bold;}
 
 .main{margin-left:300px;width:auto;}
 
 .sidebar{width:300px;float:left;}
 
 .wrap{margin:20px;padding:20px;background:#fff;}
+
+.wrap2{margin:20px;padding:20px;background:#cedaff;}
