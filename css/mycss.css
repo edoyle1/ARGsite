@@ -29,3 +29,5 @@
 .wrap2{margin:20px;padding:20px;background:#cedaff;} /* Banner text wrapper */
 
 #submenu{font-size:12pt;}
+
+.stuck{position:fixed;}
