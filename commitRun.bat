@@ -1,2 +1,2 @@
 python pyGit.py
-PAUSE
+
