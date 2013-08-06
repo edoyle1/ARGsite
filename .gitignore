@@ -1,7 +1,8 @@
 #################
 ## Eclipse
 #################
-
+pyGit.py
+commitRun.bat
 *.pydevproject
 .project
 .metadata
