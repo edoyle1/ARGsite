@@ -1,6 +1,6 @@
 .nav-tabs li a{font-size:14pt;font-weight:bold;color:#000000;} /* Sidebar text formatting */
 
-.navbar li a{font-size:18pt;font-weight:bold;color:#CF1039;} /* Navbar text formatting */
+.navbar li a{font-size:18pt;font-weight:bold;color:#fff;background:#00126d;} /* Navbar text formatting */
 
 .dropdown-menu{width:auto;} /* Dropdown size */
 
@@ -8,9 +8,11 @@
 
 .navbar li div{height:20px;padding-top:10px;padding-bottom:10px;margin-bottom:2px;} /* Navbar button sizes */
 
+.nav{width:100%;height:50px;background-color:#a4aef8;} 
+
 #homebutton{margin-right:5px;} /* Navbar button margin */
 
-#homebutton a{color:#CF1039} /* Navbar button text formatting */
+#homebutton a{color:#fff;background:#00126d;} /* Navbar button text formatting */
 
 #text{font-size:140%;line-height:120%} /* Body text formatting */
 
@@ -26,7 +28,7 @@
 
 .wrap{margin:20px;padding:20px;background:#fff;} /* Body/sidebar text wrapper */
 
-.wrap2{margin:20px;padding:20px;background:#cedaff;} /* Banner text wrapper */
+.wrap2{padding:20px;background:#a4aef8;} /* Banner text wrapper */
 
 #submenu{font-size:12pt;}
 
