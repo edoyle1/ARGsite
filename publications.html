@@ -14,8 +14,8 @@
         <div class="container-fluid">
             <div class="wrap2">
                 <div id="header">
-                   <img id="logo" src="img/olin_logo.jpg">
-                   <span>Aging Research at Olin</span>
+                   <img id="logo" src="img/olin_logo.jpg" style="border:5px solid black">
+                   <span>&nbsp&nbsp&nbsp&nbspAging Research at Olin</span>
                 </div>
             </div>
 
@@ -24,7 +24,7 @@
                 <div class="span12">
                     <div class="navbar">
                         <!--<div class="navbar-inner">-->
-                            <ul class="nav">
+                            <ul class="nav" id="rect">
                                 <li id="homebutton"><a href="index.html" class="btn"> Home </a></li> <!-- Make whatever button for the screen you're on active -->
 
                                 <li id="homebutton"><a href="about.html" class="btn"> About Us </a></li>
@@ -72,17 +72,18 @@
             </div>
 
             <div class="wrap">
-                <div class="sidebar"></div>
+                <div class="sidebar">
+                    <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="300" style="top:10px">
+                        <li><a href="#2012"> 2012 </a></li>
+                        <li><a href="#2005"> 2005 </a></li>
+                    </ul>
+                </div>
 
                 <div id="text" class="main">
                     <!-- Body Content -->
                     <h3> Publications </h3>
 
-                    <p><b> 2005 </b></p>
-                    <p>Stein, Lynn Andrea, &quotEducating Engineers to Solve Society's Problems: Extended Abstract,&quot International Conference on Women in Engineering and Science, August 2005, Seoul, Korea.<br>
-                    <i>Click <a href="http://digitalcommons.olin.edu/facpub_2013/8/">here</a> for the article.</i></p><BR>
-
-                    <p><b> 2012 </b></p>
+                    <p id="2012"><b> 2012 </b></p>
                     <p> Lynch, Caitrin and Lynn Andrea Stein, &quotConnecting with Community: Empathy, Experience, and Engineering with Elders,&quot Workshop on Active Learning in Engineering Education, Copenhagen, Denmark, June 2012. <br>
                     <i>Click <a href="http://ale2012.com/FullPaper/ale2012_submission_5.pdf">here</a> for the article.</i></p>
 
@@ -93,6 +94,10 @@
                     <i>Click <a href="http://ale2012.com/Hands-on/ale2012_submission_5.pdf">here</a> for the article.</i></p>
 
                     <p>Lynch, Caitrin and Lynn Andrea Stein, &quotEmpathy, Experience, and Engineering with Elders: Simulating Disability in the Classroom,&quot paper presented at the annual meeting of the American Anthropological Association, San Francisco, California, November 2012.<br>
+                    <i>Click <a href="http://digitalcommons.olin.edu/facpub_2013/8/">here</a> for the article.</i></p><BR>
+
+                    <p id="2005"><b> 2005 </b></p>
+                    <p>Stein, Lynn Andrea, &quotEducating Engineers to Solve Society's Problems: Extended Abstract,&quot International Conference on Women in Engineering and Science, August 2005, Seoul, Korea.<br>
                     <i>Click <a href="http://digitalcommons.olin.edu/facpub_2013/8/">here</a> for the article.</i></p>
 
                 </div>
