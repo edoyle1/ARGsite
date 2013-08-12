@@ -4,7 +4,7 @@
 
 #text{font-size:140%;line-height:120%} /* Body text formatting */
 
-.sidebar{float:left;} /* Sidebar size formatting */
+.sidebar{width:332px;float:left;} /* Sidebar size formatting */
 
 .nav-tabs li a{font-size:14pt;font-weight:bold;color:#000000;} /* Sidebar text formatting */
 
