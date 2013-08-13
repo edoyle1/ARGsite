@@ -9,14 +9,26 @@
 .nav-tabs li a{font-size:14pt;font-weight:bold;color:#000000;} /* Sidebar text formatting */
 
 
+/* Banner text wrapper */
+.wrap2
+{
+	padding:0px;
+	background:#a4aef8;
+} 
 
-.wrap2{padding:20px;background:#a4aef8;} /* Banner text wrapper */
+/* Banner text formatting */
+#header
+{
+	font-size:32pt;
+	font-weight:bold; 
+	color:#000000;
+	line-height:100%;
+	font-weight:bold;
+} 
 
-#header{font-size:32pt;font-weight:bold; color:#000000;line-height:100%;font-weight:bold;} /* Banner text formatting */
+#logo{width:150px;vertical-align:middle;margin:5px;} /*Olin logo size*/
 
-#logo{width:150px;vertical-align:middle;margin-bottom:5px;} /*Olin logo size*/
-
-#rect{width:100%;height:50px;background-color:#a4aef8;} /* Rectangle at the top */
+#rect{width:100%;height:100%;background-color:#a4aef8;} /* Rectangle at the top */
 
 
 
