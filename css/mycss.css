@@ -57,7 +57,7 @@
 /*Olin logo size*/
 #logo
 {
-	width:150px;
+	width:400px;
 	vertical-align:middle;
 	padding-top:20px;
 	padding-bottom: 5px; 
@@ -100,7 +100,6 @@
 .navbar li a
 {
 	font-size:18pt;
-	font-weight:bold;
 	color:#CF1039;
 } 
 
