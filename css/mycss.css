@@ -24,7 +24,7 @@
 /* Sidebar size formatting */
 .sidebar
 {
-	width:332px;
+	width:320px;
 	float:left;
 } 
 
@@ -49,7 +49,7 @@
 {
 	font-size:32pt;
 	font-weight:bold; 
-	color: 	#FFFFFF;
+	color: 	#fff;
 	line-height:100%;
 	font-weight:bold;
 } 
