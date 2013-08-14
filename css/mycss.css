@@ -1,12 +1,38 @@
-.wrap{padding-top:20px;background:#fff;} /* Body/sidebar text wrapper */
+/* Body/sidebar text wrapper */
+.wrap
+{
+	padding-top:20px;
+	background:#fff;
+} 
 
-.main{margin-left:340px;width:auto;} /* Body text formatting */
+/* Body text formatting */
+.main
+{
+	margin-left:340px;
+	width:auto;
+} 
 
-#text{font-size:140%;line-height:120%} /* Body text formatting */
+/* Body text formatting */
+#text
+{
+	font-size:140%;
+	line-height:120%
+} 
 
-.sidebar{width:332px;float:left;} /* Sidebar size formatting */
+/* Sidebar size formatting */
+.sidebar
+{
+	width:332px;
+	float:left;
+} 
 
-.nav-tabs li a{font-size:14pt;font-weight:bold;color:#000000;} /* Sidebar text formatting */
+/* Sidebar text formatting */
+.nav-tabs li a
+{
+	font-size:14pt;
+	font-weight:bold;
+	color:#000000;
+} 
 
 
 /* Banner text wrapper */
@@ -26,32 +52,74 @@
 	font-weight:bold;
 } 
 
-#logo{width:150px;vertical-align:middle;margin:5px;} /*Olin logo size*/
+/*Olin logo size*/
+#logo
+{
+	width:150px;
+	vertical-align:middle;
+	padding-top:20px;
+	padding-bottom: 5px; 
+	margin-left: 40px;
+} 
 
-#rect{width:100%;height:100%;background-color:#a4aef8;} /* Rectangle at the top */
-
-
-
-.navbar li div{height:20px;padding-top:10px;padding-bottom:10px;margin-bottom:2px;} /* Navbar button sizes */
-
-#homebutton{margin-right:5px;} /* Navbar button margin */
-
-#homebutton a{color:#fff;background:#00126d;} /* Navbar button text formatting */
-
-.navbar li a{font-size:18pt;font-weight:bold;color:#CF1039;} /* Navbar button text formatting */
-
-
-
-.dropdown-menu{width:auto;} /* Dropdown size */
-
-.dropdown-menu li a{font-size:14pt;} /* Dropdown text formatting */
+/* Rectangle at the top */
+#rect
+{
+	width:100%;
+	height:100%;
+	background-color:#a4aef8;
+} 
 
 
+/* Navbar button sizes */
+.navbar li div
+{
+	height:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:2px;
+} 
 
-#photo{width:300px;} /* Photo size */
+/* Navbar button margin */
+#homebutton
+{
+	margin-left:5px;
+	margin-bottom: 10px;
+} 
 
-h3{padding:0px;margin:0px;padding-bottom:10px;}
+/* Navbar button text formatting */
+#homebutton a
+{
+	color:#fff;
+	background:#00126d;
+} 
 
+/* Navbar button text formatting */
+.navbar li a
+{
+	font-size:18pt;
+	font-weight:bold;
+	color:#CF1039;
+} 
 
+/* Dropdown size */
+.dropdown-menu
+{
+	width:auto;
+} 
 
+/* Dropdown text formatting */
+.dropdown-menu li a
+{
+	font-size:14pt;
+} 
 
+/* Photo size */
+#photo{width:300px;} 
+
+h3
+{
+	padding:0px;
+	margin:0px;
+	padding-bottom:10px;
+}
