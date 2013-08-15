@@ -10,14 +10,14 @@
 /* Body text formatting */
 .main
 {
-	margin-left:330px;
+	margin-left:210px;
 	width:auto;
 } 
 
 /* Body text formatting Projects*/
 .projects
 {
-	margin-left:335px;
+	margin-left:345px;
 	width:auto;
 } 
 
@@ -32,7 +32,7 @@
 /* Sidebar size formatting */
 .sidebar
 {
-	width:320px;
+	
 	float:left;
 } 
 
@@ -129,7 +129,7 @@
 	width:300px;
 } 
 
-/* Photo size */
+/* Small Photo size */
 #photo_small
 {
 	width:150px;
