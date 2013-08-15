@@ -10,9 +10,17 @@
 /* Body text formatting */
 .main
 {
-	margin-left:340px;
+	margin-left:330px;
 	width:auto;
 } 
+
+/* Body text formatting Projects*/
+.projects
+{
+	margin-left:335px;
+	width:auto;
+} 
+
 
 /* Body text formatting */
 #text
