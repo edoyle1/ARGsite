@@ -1,12 +1,3 @@
-/* Body/sidebar text wrapper */
-.wrap
-{
-	padding-top:20px;
-	background:#fff;
-	margin-left: 10px;
-	margin-right: 10px;
-} 
-
 /* Body text formatting */
 .main
 {
@@ -21,6 +12,12 @@
 	width:auto;
 } 
 
+/* Body text formatting About*/
+.about
+{
+	margin-left:330px;
+	width:auto;
+} 
 
 /* Body text formatting */
 #text
@@ -29,10 +26,19 @@
 	line-height:120%
 } 
 
+/* Body/sidebar text wrapper */
+.wrap
+{
+	padding-top:20px;
+	background:#fff;
+	margin-left: 10px;
+	margin-right: 10px;
+} 
+
 /* Sidebar size formatting */
 .sidebar
 {
-	
+	top:100px;
 	float:left;
 } 
 
@@ -58,14 +64,13 @@
 	font-size:32pt;
 	font-weight:bold; 
 	color: 	#fff;
-	line-height:100%;
+	height:auto;
 	font-weight:bold;
 } 
 
 /*Olin logo size*/
 #logo
 {
-	
 	vertical-align:middle;
 	padding-top:20px;
 	padding-bottom: 5px; 
@@ -111,18 +116,6 @@
 	color:#CF1039;
 } 
 
-/* Dropdown size */
-.dropdown-menu
-{
-	width:auto;
-} 
-
-/* Dropdown text formatting */
-.dropdown-menu li a
-{
-	font-size:14pt;
-} 
-
 /* Photo size */
 #photo
 {
@@ -141,3 +134,15 @@ h3
 	margin:0px;
 	padding-bottom:10px;
 }
+
+/* Dropdown size */
+.dropdown-menu
+{
+	width:auto;
+} 
+
+/* Dropdown text formatting */
+.dropdown-menu li a
+{
+	font-size:14pt;
+} 
