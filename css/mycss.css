@@ -129,6 +129,12 @@
 	width:300px;
 } 
 
+/* Photo size */
+#photo_small
+{
+	width:150px;
+} 
+
 h3
 {
 	padding:0px;
