@@ -100,7 +100,6 @@
 .navbar li a
 {
 	font-size:18pt;
-	font-weight:bold;
 	color:#CF1039;
 } 
 
@@ -120,8 +119,10 @@
 #photo
 {
 	width:300px;
+	border:1px solid #000000;
 } 
 
+/* Overwriting H3 */
 h3
 {
 	padding:0px;
