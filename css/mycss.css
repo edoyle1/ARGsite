@@ -1,16 +1,21 @@
-/* Body/sidebar text wrapper */
-.wrap
-{
-	padding-top:20px;
-	background:#fff;
-	margin-left: 10px;
-	margin-right: 10px;
-} 
-
 /* Body text formatting */
 .main
 {
-	margin-left:340px;
+	margin-left:210px;
+	width:auto;
+} 
+
+/* Body text formatting Projects*/
+.projects
+{
+	margin-left:345px;
+	width:auto;
+} 
+
+/* Body text formatting About*/
+.about
+{
+	margin-left:330px;
 	width:auto;
 } 
 
@@ -21,10 +26,19 @@
 	line-height:120%
 } 
 
+/* Body/sidebar text wrapper */
+.wrap
+{
+	padding-top:20px;
+	background:#fff;
+	margin-left: 10px;
+	margin-right: 10px;
+} 
+
 /* Sidebar size formatting */
 .sidebar
 {
-	width:320px;
+	top:100px;
 	float:left;
 } 
 
@@ -50,14 +64,13 @@
 	font-size:32pt;
 	font-weight:bold; 
 	color: 	#fff;
-	line-height:100%;
+	height:auto;
 	font-weight:bold;
 } 
 
 /*Olin logo size*/
 #logo
 {
-	width:150px;
 	vertical-align:middle;
 	padding-top:20px;
 	padding-bottom: 5px; 
@@ -103,6 +116,26 @@
 	color:#CF1039;
 } 
 
+/* Photo size */
+#photo
+{
+	width:300px;
+	border:2px solid black;
+} 
+
+/* Small Photo size */
+#photo_small
+{
+	width:150px;
+} 
+
+h3
+{
+	padding:0px;
+	margin:0px;
+	padding-bottom:10px;
+}
+
 /* Dropdown size */
 .dropdown-menu
 {
@@ -115,6 +148,7 @@
 	font-size:14pt;
 } 
 
+<<<<<<< HEAD
 /* Photo size */
 #photo
 {
@@ -136,3 +170,35 @@ h3
 	margin:0px;
 	padding-bottom:10px;
 }
+=======
+/*Floating Nav Bar - Side */
+#floatMenu        {
+                left: -1%;
+                position: absolute;
+                top:20%;
+
+}
+
+#floatMenu ul   {
+                margin-bottom:20px;
+                list-style-type: none;
+}
+
+#floatMenu ul li a:hover               {
+                border-color:#09f;
+                font-weight: bold;
+}
+
+#floatMenu ul li a             {
+                list-style-type: none;
+                display:block;
+                border:1px solid #999;
+                border-left:6px solid #999;
+                font-size: 20px;
+                background-color:inherit;
+                font-family: Verdana;
+                text-decoration:bold;
+                color:black;
+                padding: 5px;
+}
+>>>>>>> e09d8d9a19f53607556103856b47e3f7df457882
