@@ -162,6 +162,13 @@ h3
 	border:1px solid #000000;
 } 
 
+/* Headshot size */
+#smallpic
+{
+	width:200px;
+	border:1px solid #000000;
+} 
+
 /* Overwriting H3 */
 h3
 {
