@@ -177,6 +177,16 @@ h3
 	padding-bottom:10px;
 }
 
+h4
+{
+	font-size:18pt;
+	font-weight:bold;
+	padding:0px;
+	margin:0px;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
 /*Floating Nav Bar - Side */
 #floatMenu
 {
