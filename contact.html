@@ -67,14 +67,13 @@
                         </script>
                     </head>
                     <body>
-                        <form action="http://www.mydomain.com/cgi-sys/formmail.pl" method="post" name="hgmailer">
+                        <form action="getForm.py" method="GET" enctype="text/plain">
                             <input type="hidden" name="recipient" value="sharon.grimshaw@students.olin.edu">
                             <input type="hidden" name="subject" value="Form mail email">
-                            Visitor Name (optional):&nbsp&nbsp&nbsp&nbsp <input type="text" name="name" size="30" value=""><br>
-                            Visitor E-Mail (optional):&nbsp&nbsp&nbsp <input type="text" name="email" size="30" value=""><br>
+                            Visitor Name (optional):&nbsp&nbsp&nbsp&nbsp <input type="text" name="name" size="30"><br>
+                            Visitor E-Mail (optional):&nbsp&nbsp&nbsp <input type="text" name="email" size="30"><br>
                             Questions or suggestions: <textarea name="comment" cols="50" rows="5"></textarea><br><br>
-                            <input type="button" value="Submit" onclick="hgsubmit();">
-                            <input type="hidden" name="redirect" value="http://www.mydomain.com/redirect-path">
+                            <input type="button" value="Submit" onclick="">
                         </form>
                     </body>
                     <BR><BR>
