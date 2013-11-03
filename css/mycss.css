@@ -214,3 +214,8 @@ h4
 	color:black;
 	padding: 5px;
 }
+
+#navigation
+{
+	min-width:1000px;	
+}
