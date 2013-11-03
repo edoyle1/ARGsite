@@ -121,13 +121,7 @@
 {
 	width:300px;
 	border:2px solid black;
-} 
-
-/* Small Photo size */
-#photo_small
-{
-	width:150px;
-} 
+}
 
 h3
 {
@@ -162,7 +156,7 @@ h3
 	border:1px solid #000000;
 } 
 
-/* Headshot size */
+/* Small picture */
 #smallpic
 {
 	width:200px;
